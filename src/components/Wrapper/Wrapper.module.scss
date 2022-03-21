@@ -1,0 +1,10 @@
+.wrapper {
+    max-width: calc(100% - 50px);
+    margin: 0 auto 25px auto;
+    width: 100%;
+    position: relative;
+    
+    &:first-child {
+        margin-top: 25px;
+    }
+}
