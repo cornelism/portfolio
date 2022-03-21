@@ -5,7 +5,10 @@ import styles from "./Footer.module.scss";
 function Footer() {
   return (
     <Wrapper>
-      <div className={styles.footer}>2022 - cornelism.be</div>
+      <div className={styles.footer}>
+        <div>2022 - cornelism.be</div>
+        <div>PRIVACY POLICY</div>
+      </div>
     </Wrapper>
   );
 }
