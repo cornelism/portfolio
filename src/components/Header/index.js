@@ -7,6 +7,7 @@ function Header() {
   return (
     <Wrapper>
       <div className={styles.header}>
+        <div></div>
         <div className={styles.name}>Michaël Cornelis</div>
         <div className={styles.title}>consultant // front-end engineer</div>
         <nav className={styles.nav}>
@@ -23,8 +24,6 @@ function Header() {
             articles
           </a>
         </nav>
-        {/* <button>light</button>
-      <button>dark</button> */}
       </div>
     </Wrapper>
   );
