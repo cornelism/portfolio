@@ -5,11 +5,11 @@ import styles from "./Hero.module.scss";
 function Hero() {
   return (
     <Wrapper>
-      <span className={styles.hero}>
+      <div className={styles.hero}>
         Let's work
         <br />
-        Together
-      </span>
+        together. 🤝
+      </div>
     </Wrapper>
   );
 }
