@@ -1,28 +1,27 @@
 import React from "react";
-import Wrapper from "../Wrapper";
-// import classNames from "classnames";
+import { Link, Wrapper } from "../";
 import styles from "./Header.module.scss";
 
 function Header() {
   return (
     <Wrapper>
       <div className={styles.header}>
-        <div></div>
-        <div className={styles.name}>Michaël Cornelis</div>
-        <div className={styles.title}>consultant // front-end engineer</div>
+        <div className={styles.name}>Hi, there! 👋 </div>
+        <div className={styles.name}>My name is Michaël. </div>
+        {/* <div className={styles.title}>Front-end Engineer and Consultant</div> */}
         <nav className={styles.nav}>
-          <a href="/" target="_self">
-            what I do
-          </a>
-          <a href="/whoami" target="_self">
-            who I am
-          </a>
-          <a href="/hire" target="_self">
-            hire me
-          </a>
-          <a href="/articles" target="_self">
-            articles
-          </a>
+          <Link href="/whoiam" target="_self">
+            who I am.
+          </Link>
+          <Link href="/whatimade" target="_self">
+            what I made.
+          </Link>
+          <Link href="/whatiwrote" target="_self">
+            what I wrote.
+          </Link>
+          {/* <Link href="/hire" target="_self">
+            you can 
+          </Link> */}
         </nav>
       </div>
     </Wrapper>
