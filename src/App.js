@@ -1,13 +1,13 @@
-import { Footer, Header, Hero } from "./components";
-// import Gallery from "./components/Gallery";
+import { Footer, Header, Hero, Rule } from "./components";
+import "./App.css";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <Rule />
       <Footer />
-      {/* <Gallery/> */}
     </>
   );
 }
