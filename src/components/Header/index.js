@@ -13,6 +13,9 @@ function Header() {
           <Link href="/whoiam" target="_self">
             who I am.
           </Link>
+          <Link href="/whatido" target="_self">
+            what I do.
+          </Link>
           <Link href="/whatimade" target="_self">
             what I made.
           </Link>
